@@ -20,7 +20,7 @@ widgets:
 - recent_posts
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-61190111-1
 favicon: /favicon.png
 twitter: StartNao
 google_plus:
