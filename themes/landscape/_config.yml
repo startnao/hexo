@@ -1,6 +1,8 @@
 # Header
 menu:
   Home: /
+  Project Definition: /Project-Definition
+  Twitter: https://twitter.com/StartNao
   Archives: /archives
 rss: /atom.xml
 
@@ -20,7 +22,7 @@ widgets:
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
+twitter: StartNao
 google_plus:
 fb_admins:
 fb_app_id:

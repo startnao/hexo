@@ -7,4 +7,4 @@ Welcome to our class project blog !
 
 We are currently working on a project involving Nao. The goal is to find new ways to interact with the robot.
 
-We invite you to look at the project definition page to learn more about the project.
+We invite you to look at the [project definition page](/Project-Definition) to learn more about the project.
