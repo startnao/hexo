@@ -3,8 +3,6 @@ date: 2015-05-16 21:01:14
 tags:
 ---
 
-# Python, OpenCV and NAO
-
 In the group II, we are currently working with OpenCV in order to detect motion, quantify it and execute actions under certain conditions. For the moment, the Python code works well on our computers (it detects the motion accordingly to what we wanted). The next step is to put that code on the NAO to make it detect what we want.
 
 This article aims to explain the process we followed to understand how OpenCV work and to detect an amout of motion in an image.
