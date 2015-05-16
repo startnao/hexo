@@ -25,14 +25,14 @@ By searching a bit on Internet, we were able to build a movement tracker that wo
 
 Once we were able to detect movement, the next issue was to quantify that movement in order to trigger or not our action.
 
-###Â a. First try: percentage of the image in movement
+### a. First try: percentage of the image in movement
 
 Our first implemetation used a percentage of the image covered by red rectangles: if more than 30% of the image was in movement, we trigger the actions. However, this method wasn't greate for two main reasons:
 
 - We didn't have a notion of time, so a single big movement could be enough to trigger the system ;
 - Every single movement, even the smallest ones like a face movement, we tracked, so the percentage was pretty bad ;
 
-###Â b. Improve the method by adding time and ignoring some rectangles
+### b. Improve the method by adding time and ignoring some rectangles
 
 In a second and third implementations, we worked on these problems and solved them by adding a time notion and by ignoring small rectangles. Now, the motion had to be detected for a certain number of frame to trigger the event.
 
