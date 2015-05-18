@@ -18,8 +18,6 @@ Nao need to perform some actions/movement when we are doing some large movements
 
 {% asset_img core2.PNG %}  <br />
 
-
-
 ###Group 3 :
 
 Nao starts asking if the person wants to play. In case of a negative answer, he sits down, makes his head going down, turns his eyes to red and stays like that. When the player replies positively, he asks a riddle.
@@ -28,7 +26,6 @@ A random question is taken in a list of 10, and NAO detects if the given answer 
 {% asset_img core1.PNG %} <br />  
 
 {% asset_img core3.PNG %} <br />  
-
 
 
 ###Group 4:

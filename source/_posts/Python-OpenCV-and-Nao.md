@@ -3,7 +3,7 @@ date: 2015-05-16 21:01:14
 tags:
 ---
 
-In the group II, we are currently working with OpenCV in order to detect motion, quantify it and execute actions under certain conditions. For the moment, the Python code works well on our computers (it detects the motion accordingly to what we wanted). The next step is to put that code on the NAO to make it detect what we want.
+[ 2] In the group II, we are currently working with OpenCV in order to detect motion, quantify it and execute actions under certain conditions. For the moment, the Python code works well on our computers (it detects the motion accordingly to what we wanted). The next step is to put that code on the NAO to make it detect what we want.
 
 This article aims to explain the process we followed to understand how OpenCV work and to detect an amout of motion in an image.
 
@@ -27,10 +27,10 @@ Once we were able to detect movement, the next issue was to quantify that moveme
 
 ### a. First try: percentage of the image in movement
 
-Our first implemetation used a percentage of the image covered by red rectangles: if more than 30% of the image was in movement, we trigger the actions. However, this method wasn't greate for two main reasons:
+Our first implemetation used a percentage of the image covered by red rectangles: if more than 30% of the image was in movement, we trigger the actions. However, this method wasn't great for two main reasons:
 
 - We didn't have a notion of time, so a single big movement could be enough to trigger the system ;
-- Every single movement, even the smallest ones like a face movement, we tracked, so the percentage was pretty bad ;
+- Every single movement, even the smallest ones like a face movement, were tracked, so the percentage was pretty bad ;
 
 ### b. Improve the method by adding time and ignoring some rectangles
 
