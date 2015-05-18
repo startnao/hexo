@@ -6,7 +6,9 @@ tags:
 [4] We are trying to detect red balls on the Nao. First we did it on our computer, here is the code:
 
 
-``` import cv2
+``` python
+#!/usr/bin/env python 
+import cv2
 import numpy as np
 
 #cap = cv2.VideoCapture(0)
