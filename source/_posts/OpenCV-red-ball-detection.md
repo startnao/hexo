@@ -58,6 +58,7 @@ while(detected is not True):
         elif 100 < res.item(cy,cx,0) < 120:
              cv2.rectangle(img,(x,y),(x+w,y+h),[255,0,0],2)
              print "blue :", x,y,w,h
+             detected = True
         cv2.imshow('img',img)  
 
     k = cv2.waitKey(5) & 0xFF
